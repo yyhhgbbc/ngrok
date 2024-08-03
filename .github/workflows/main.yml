@@ -1,7 +1,7 @@
 name: ngrokhour
 on:
   schedule:
-    - cron: '35 */7 * * *'
+    - cron: '5 */7 * * *'
 jobs:
   build:
     runs-on: windows-latest
